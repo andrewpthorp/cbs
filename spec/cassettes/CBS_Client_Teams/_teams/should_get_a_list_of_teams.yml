@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.cbssports.com/fantasy/pro-teams?SPORT=football&response_format=json&version=3.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Mar 2017 15:27:24 GMT
+      Server:
+      - Apache
+      Content-Security-Policy:
+      - frame-ancestors *.cbsig.net:* *.cbssports.com *.cbssports.com:* *.sportsline.com
+        *.cbs.com *.247sports.com *.maxpreps.com
+      Expires:
+      - Mon, 20 Mar 2017 15:27:00 GMT
+      Cache-Control:
+      - max-age=0
+      Nncoection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/plain
+    body:
+      encoding: ASCII-8BIT
+      string: '{"body":{"pro_teams":[{"abbr":"ARI","nickname":"Cardinals","name":"Arizona","conf":"NFC"},{"abbr":"ATL","nickname":"Falcons","name":"Atlanta","conf":"NFC"},{"abbr":"BAL","nickname":"Ravens","name":"Baltimore","conf":"AFC"},{"abbr":"BUF","nickname":"Bills","name":"Buffalo","conf":"AFC"},{"abbr":"CAR","nickname":"Panthers","name":"Carolina","conf":"NFC"},{"abbr":"CHI","nickname":"Bears","name":"Chicago","conf":"NFC"},{"abbr":"CIN","nickname":"Bengals","name":"Cincinnati","conf":"AFC"},{"abbr":"CLE","nickname":"Browns","name":"Cleveland","conf":"AFC"},{"abbr":"DAL","nickname":"Cowboys","name":"Dallas","conf":"NFC"},{"abbr":"DEN","nickname":"Broncos","name":"Denver","conf":"AFC"},{"abbr":"DET","nickname":"Lions","name":"Detroit","conf":"NFC"},{"abbr":"GB","nickname":"Packers","name":"Green
+        Bay","conf":"NFC"},{"abbr":"HOU","nickname":"Texans","name":"Houston","conf":"AFC"},{"abbr":"IND","nickname":"Colts","name":"Indianapolis","conf":"AFC"},{"abbr":"JAC","nickname":"Jaguars","name":"Jacksonville","conf":"AFC"},{"abbr":"KC","nickname":"Chiefs","name":"Kansas
+        City","conf":"AFC"},{"abbr":"SD","nickname":"Chargers","name":"Los Angeles","conf":"AFC"},{"abbr":"LAR","nickname":"Rams","name":"Los
+        Angeles","conf":"NFC"},{"abbr":"MIA","nickname":"Dolphins","name":"Miami","conf":"AFC"},{"abbr":"MIN","nickname":"Vikings","name":"Minnesota","conf":"NFC"},{"abbr":"NE","nickname":"Patriots","name":"New
+        England","conf":"AFC"},{"abbr":"NO","nickname":"Saints","name":"New Orleans","conf":"NFC"},{"abbr":"NYG","nickname":"Giants","name":"New
+        York","conf":"NFC"},{"abbr":"NYJ","nickname":"Jets","name":"New York","conf":"AFC"},{"abbr":"OAK","nickname":"Raiders","name":"Oakland","conf":"AFC"},{"abbr":"PHI","nickname":"Eagles","name":"Philadelphia","conf":"NFC"},{"abbr":"PIT","nickname":"Steelers","name":"Pittsburgh","conf":"AFC"},{"abbr":"SF","nickname":"49ers","name":"San
+        Francisco","conf":"NFC"},{"abbr":"SEA","nickname":"Seahawks","name":"Seattle","conf":"NFC"},{"abbr":"TB","nickname":"Buccaneers","name":"Tampa
+        Bay","conf":"NFC"},{"abbr":"TEN","nickname":"Titans","name":"Tennessee","conf":"AFC"},{"abbr":"WAS","nickname":"Redskins","name":"Washington","conf":"NFC"}]},"uriAlias":"/pro-teams","statusMessage":"OK","uri":"/pro-teams","statusCode":200}'
+    http_version: 
+  recorded_at: Mon, 20 Mar 2017 15:27:24 GMT
+recorded_with: VCR 3.0.3

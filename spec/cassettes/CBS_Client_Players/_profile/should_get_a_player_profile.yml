@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.cbssports.com/fantasy/players/profile?SPORT=football&player_id=1907522&response_format=json&version=3.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Mar 2017 15:24:01 GMT
+      Server:
+      - Apache
+      Content-Security-Policy:
+      - frame-ancestors *.cbsig.net:* *.cbssports.com *.cbssports.com:* *.sportsline.com
+        *.cbs.com *.247sports.com *.maxpreps.com
+      Expires:
+      - Mon, 20 Mar 2017 15:24:00 GMT
+      Cache-Control:
+      - max-age=0
+      Nncoection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/plain
+    body:
+      encoding: ASCII-8BIT
+      string: '{"body":{"player_profile":{"player":{"season_outlook":{"created":"1472924239","outlook":"The
+        <a href=\"http://fantasynews.cbssports.com/fantasyfootball/teams/page/PHI\">Eagles</a>,
+        as expected, drafted rookie quarterback <a href=\"http://moderndad.football.cbssports.com/players/playerpage/1907522\">Carson
+        Wentz</a> at No. 2 overall in the NFL Draft from North Dakota State. He''s
+        expected to be the starting quarterback in Philadelphia for many years to
+        come, and he could even be the starter in Week 1 against Cleveland after the
+        Eagles traded Sam Bradford to Minnesota just before the start of the season.
+        Wentz has plenty of upside based on his successful career with the Bison when
+        he passed for 5,115 yards, 45 touchdowns and 14 interceptions in four years.
+        He could develop into a quality Fantasy quarterback, but we don''t expect
+        it to happen during his rookie season. He''s not worth drafting in most re-draft
+        leagues, but he is worth taking with a second- or third-round pick in rookie-only
+        drafts. But if he gets off to a good start during his rookie campaign then
+        add him off waivers.","modified":null},"firstname":"Carson","photo":"http://sports.cbsimg.net/images/football/nfl/players/170x170/1907522.png","position":"QB","icons":{"headline":"Eagles''
+        Carson Wentz: Dealt with elbow pain in 2016"},"lastname":"Wentz","age":24,"eligible_positions":["QB"],"elias_id":"WEN615770","roster_trends":{"start_pct":8,"owned_pct":48},"id":"1907522","bye_week":"4,18,19,20,21","latest_update":{"timestamp":"1488486245","players":[{"bye_week":"4,18,19,20,21","firstname":"","photo":"http://sports.cbsimg.net/images/football/nfl/players/170x170/1971.png","position":"TQB","icons":{"headline":"Chase
+        Daniel: Visiting with Jets on Monday"},"lastname":"Eagles","elias_id":"511","pro_status":null,"fullname":"Eagles","id":"1971","pro_team":"PHI"},{"bye_week":"4,18,19,20,21","firstname":"Carson","photo":"http://sports.cbsimg.net/images/football/nfl/players/170x170/1907522.png","position":"QB","icons":{"headline":"Eagles''
+        Carson Wentz: Dealt with elbow pain in 2016"},"lastname":"Wentz","age":24,"elias_id":"WEN615770","pro_status":"A","jersey":"11","fullname":"Carson
+        Wentz","id":"1907522","pro_team":"PHI"}],"author":{"byline":"Special to CBSSports.com","id":"2176431","last_name":"Staff","first_name":"RotoWire"},"news":"<a
+        class=''playerLink'' href=''/players/playerpage/1907522''>Wentz</a> played
+        through pain in his throwing elbow during the 2016 season, Jeff McClane of
+        the Philadelphia Inquirer reports.\n\n<p>Wentz started all 16 games during
+        his rookie season, throwing for 3,782 yards and 16 touchdowns on 379-for-607
+        passing. The team is unsure if Wentz''s throwing motion or the sheer number
+        of passes were the reason for his elbow soreness, but the issue was significant
+        enough that the young passer had to take additional time off from throwing
+        after the season ended. The soreness won''t in any way impact his availability
+        for offseason workouts, but it may be something the team tries to avoid in
+        the future.</p>","type":null,"id":"c22a2d80-91e3-46b3-a4be-39185d637ef2","title":"Eagles''
+        Carson Wentz: Dealt with elbow pain in 2016"},"pro_status":"A","headshot_image":"http://sports.cbsimg.net/images/football/nfl/players/170x170/1907522.png","jersey":"11","fullname":"Carson
+        Wentz","pro_team":"PHI"}}},"uriAlias":"/players/profile","statusMessage":"OK","uri":"/players/profile","statusCode":200}'
+    http_version: 
+  recorded_at: Mon, 20 Mar 2017 15:24:02 GMT
+recorded_with: VCR 3.0.3

@@ -6,7 +6,9 @@ gem 'rake'
 gem 'yard'
 
 group :test do
-  gem 'rspec', '>= 2.11'
+  gem 'rspec', '~> 3.5'
+  gem 'vcr', '~> 3.0'
+  gem 'webmock', '~> 2.3'
 end
 
 gemspec
